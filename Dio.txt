@@ -1,0 +1,12 @@
+Tahapan membuat repository
+
+membuat repository di akun github yang telah dibuat
+melakukan kloning repository
+menambahkan file baru dan melakukan push
+
+Langkah-langkah,
+git clone alamat repository
+buat file di folder yang sudah anda clone
+git add *
+git commit -m "pesan perubahan pada file"
+git push -u origin master
