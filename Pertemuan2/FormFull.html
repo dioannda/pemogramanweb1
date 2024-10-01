@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar membuat form</title>
+</head>
+<body>
+    <form action="formulir.html" method="get">
+        nama: <input type="text" nama="nama" value="Dio Ananda Maulana Wijaya"/>
+        <br>
+        password: <input type="password" name="password"/>
+        <br>
+        jenis kelamin: 
+        <input type="radio" name="jenis_kelamin" value="laki-laki" checked/>
+        Laki-laki 
+        <input type="radio" name="jenis_kelamin" value="perempuan"/>
+        perempuan
+        <br>
+        hobi:
+        <input type="checkbox" name="hobi_MainMusik"/> Main Musik
+        <input type="checkbox" name="hobi_Basket"checked/> Basket
+        <input type="checkbox" name="hobi_Lari"/> Lari
+
+        <br>
+        
+        asal kota:
+        <select name="asal_kota">
+            <option value="kota jakarta">Jakarta</option>
+            <option value="kota Bandung">Bandung</option>
+            <option value="kota Semarang">Semarang </option>
+        </select>
+
+        <br>
+
+        komentar anda:
+        <textarea name="komentar" rows="5" cols="20">
+            Tetap Semangat Kuliah Agar Lulus Cumlaude
+        </textarea>
+
+        <br> 
+
+        <input type="submit" value="Percaya Proses!!">
+    </form>
+</body>
+</html>
