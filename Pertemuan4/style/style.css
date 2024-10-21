@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 720px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+.header ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.cover {
+    height: 450px;
+    background-image: url('../gambar/c++.png'); /* Pastikan path sesuai */
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.content h4 {
+    margin-bottom: 15px;
+    color: #777;
+}
+
+.content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
