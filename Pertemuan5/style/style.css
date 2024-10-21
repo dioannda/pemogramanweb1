@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(92, 125, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+}
+.header h1{
+    margin-left: 30px;
+    padding-top: 15px;
+
+}
+.nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.content h2{
+    margin-left: 15px;
+
+}
+.content p{
+    font-size: 14;
+    margin-left: 15px;
+}
+.main{
+    display: flex;
+    margin-left: 15px;
+}
+
+.content{
+    width: 400px;
+}
+.sitebar{
+    width: 500px;
+    margin-left: 40px;
+    padding-top: 7px;
+}
+
+.sitebar p{
+    font-size: 14px;
+}
+
+.footer{
+    background-color: #a59e9e;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.sitebar img, .content img {
+    max-width: 100%; /* Mengatur lebar maksimal gambar sesuai dengan elemen induknya */
+    max-height: 500px; /* Mengatur tinggi maksimal gambar */
+    width: auto; /* Menjaga rasio gambar */
+    height: auto; /* Menjaga rasio gambar */
+}
+
+
+
+
+
+    
